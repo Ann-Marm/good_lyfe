@@ -79,25 +79,25 @@
 }
 
 .product__image-wrapper_2 {
-    /*   background-image: url('./images/jonathan_1440.jpg');*/
+    background-image: url('../images/jonathan_1440.jpg');
     background-repeat: no-repeat;
     background-position: 0px -200px;
 }
 
 .product__image-wrapper_3 {
-    /*  background-image: url('./images/woman_pumping_abs_1440.jpg');*/
+    background-image: url('../images/woman_pumping_abs_1440.jpg');
     background-repeat: no-repeat;
     background-position: 0px -910px;
 }
 
 .product__image-wrapper_4 {
-    /* background-image: url('./images/gym_1440.jpg');*/
+    background-image: url('../images/gym_1440.jpg');
     background-repeat: no-repeat;
     background-position: 0px -200px;
 }
 
 .product__image-wrapper_5 {
-    /* background-image: url('./images/barbell_1440.jpg');*/
+    background-image: url('../images/barbell_1440.jpg');
     background-repeat: no-repeat;
     background-position: 0px -220px;
 }
