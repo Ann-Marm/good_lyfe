@@ -17,7 +17,6 @@
     width: 489px;
 }
 
-
 .premium__title {
     color: #E43071;
     font-size: 40px;
@@ -41,8 +40,8 @@
 
 .premium__gym_room {
     position: absolute;
-    background-image: url(/images/gym_room.jpg);
-    background-repeat: no-repeat;
+   /* background-image: url('../images/gym_room.jpg');*/
+   /* background-repeat: no-repeat;*/
     width: 444px;
     height: 296px;
     top: 0;
@@ -52,8 +51,8 @@
 
 .premium__weights {
     position: absolute;
-    background-image: url(/images/weights.jpg);
-    background-repeat: no-repeat;
+  /*  background-image: url('../images/weights.jpg');*/
+  /*  background-repeat: no-repeat;*/
     width: 422px;
     height: 281px;
     top: 154px;
@@ -68,5 +67,47 @@
 
     .premium__wrapper {
         flex-direction: column;
+        align-items: start;
+        padding-top: 54px;
+        padding-bottom:39px;
+        padding-right: 16px;
+        padding-left: 16px;
     }
+
+    .premium__info {
+        width: 288px;
+        order:2;
+    }
+
+    .premium__title {
+        margin-bottom: 13px;
+    }
+
+    .premium__text {
+        line-height: 200%;
+        margin-bottom: 40px;
+    }
+
+    .premium__photos {
+        width: 288px;
+        height: 198px;
+        order:1;
+        padding: 0;
+    }
+
+    .premium__gym_room {
+        width: 202px;
+        height: 135px;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .premium__weights {
+        width: 191px;
+        height: 128px;
+        top: 70px;
+        left: 84px;   
+    }
+
 }
