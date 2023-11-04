@@ -21,7 +21,7 @@
 
 .about__male_lifting {
     position: absolute;
-  /*  background-image: url('./images/male_lifting_weights.jpg');*/
+    background-image: url('../images/male_lifting_weights.jpg');
     background-repeat: no-repeat;
     width: 347px;
     height: 399px;
@@ -31,7 +31,6 @@
 
 .about__female_situps {
     position: absolute;
-    display: block;
     background-image: url('../images/female_doing_situps.jpg');
     background-repeat: no-repeat;
     width: 241px;
