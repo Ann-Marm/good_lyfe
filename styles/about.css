@@ -31,7 +31,8 @@
 
 .about__female_situps {
     position: absolute;
-    background-image: url('images/female_doing_situps.jpg');
+    display: block;
+    background-image: url('../images/female_doing_situps.jpg');
     background-repeat: no-repeat;
     width: 241px;
     height: 359px;
