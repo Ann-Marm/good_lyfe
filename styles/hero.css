@@ -50,6 +50,11 @@
     height: 691px;
 }
 
+.hero .swiper-slide {
+    width: 1440px;
+    height: 691px;
+}
+
 .product__image-wrapper {
     width: 1440px;
     height: 691px;
@@ -162,6 +167,11 @@
 }
     
 .hero__item {
+    width: 320px;
+    height: 424px;
+}
+
+.hero .swiper-slide {
     width: 320px;
     height: 424px;
 }

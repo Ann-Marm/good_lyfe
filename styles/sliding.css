@@ -256,6 +256,11 @@
     height: 691px;
 }
 
+.sliding .swiper-slide {
+    width: 1440px;
+    height: 691px;
+}
+
 .sliding__image-wrapper {
     width: 1440px;
     height: 691px;
@@ -374,6 +379,11 @@
         height: 424px;
     }
     
+    .sliding .swiper-slide {
+        width: 320px;
+        height: 424px;
+    }
+
     .sliding__image-wrapper {
         width: 320px;
         height: 424px;
