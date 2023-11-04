@@ -217,7 +217,11 @@ h1, h2, h3, p {
     font-weight: 400;
 }
 
-
+.button-section-text {
+    width: 287px;
+    height: 60px;
+    padding-top: 10px;
+}
 
 }
 

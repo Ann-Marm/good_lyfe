@@ -21,7 +21,7 @@
 
 .about__male_lifting {
     position: absolute;
-    background-image: url(/images/male_lifting_weights.jpg);
+  /*  background-image: url('./images/male_lifting_weights.jpg');*/
     background-repeat: no-repeat;
     width: 347px;
     height: 399px;
@@ -31,7 +31,7 @@
 
 .about__female_situps {
     position: absolute;
-    background-image: url(/images/female_doing_situps.jpg);
+  /*  background-image: url('./images/female_doing_situps.jpg');*/
     background-repeat: no-repeat;
     width: 241px;
     height: 359px;
@@ -65,5 +65,43 @@
 
     .about__wrapper {
         flex-direction: column;
+        align-items: start;
+        padding-top: 35px;
+        padding-bottom: 23px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .about__photos {
+        width: 262px;
+        height: 313px;  
+    }
+
+    .about__male_lifting {
+        width: 176px;
+        height: 248px;
+      /*  background-position: -50px -70px;*/
+      /*  background-size: 95%;*/
+    }
+    
+    .about__female_situps {
+        width: 146px;
+        height: 218px;
+        top: 95px;
+        left: 116px;
+       /* background-position: -50px -70px;*/
+    }
+
+    .about__info {
+        width: 261px;
+    }
+    
+    .about__title {
+        margin-bottom: 11px;
+    }
+    
+    .about__text {
+        line-height: 200%;
+        margin-bottom: 40px;
     }
 }
