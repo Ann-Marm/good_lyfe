@@ -50,12 +50,6 @@
     height: 691px;
 }
 
-.hero .swiper-slide {
-    display: block;
-    width: 1440px;
-    height: 691px;
-}
-
 .product__image-wrapper {
     width: 1440px;
     height: 691px;
@@ -63,7 +57,7 @@
 
 .product__image-wrapper_1 {
     position: relative;
-    background-image: url(/images/cathy_1440.jpg);
+    background-image: url('/images/cathy_1440.jpg');
     background-repeat: no-repeat;
     background-position: 0px -70px;
   /*  width: 1440px;
@@ -168,11 +162,6 @@
 }
     
 .hero__item {
-    width: 320px;
-    height: 424px;
-}
-
-.hero .swiper-slide {
     width: 320px;
     height: 424px;
 }
