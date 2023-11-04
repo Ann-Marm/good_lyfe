@@ -1,0 +1,72 @@
+.premium__container {
+    width: 1440px;
+}
+
+.premium__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 108px;
+    padding-bottom: 122px;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.premium__info {
+    width: 489px;
+}
+
+
+.premium__title {
+    color: #E43071;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 6px;
+}
+
+.premium__text {
+    display: block;
+    color: #424242;
+    line-height: 231.25%;
+    margin-bottom: 18.5px;
+}
+
+.premium__photos {
+    width: 572px;
+    position: relative;
+    height: 503px; 
+}
+
+.premium__gym_room {
+    position: absolute;
+    background-image: url(/images/gym_room.jpg);
+    background-repeat: no-repeat;
+    width: 444px;
+    height: 296px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.premium__weights {
+    position: absolute;
+    background-image: url(/images/weights.jpg);
+    background-repeat: no-repeat;
+    width: 422px;
+    height: 281px;
+    top: 154px;
+    right: 0;   
+}
+
+
+@media (max-width: 320px) {
+    .premium__container {
+        width: 320px;
+    }
+
+    .premium__wrapper {
+        flex-direction: column;
+    }
+}

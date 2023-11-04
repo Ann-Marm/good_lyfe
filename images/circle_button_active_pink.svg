@@ -1,0 +1,10 @@
+<svg width="200" height="64" viewBox="0 0 200 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask Group">
+<mask id="mask0_12_538" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="64">
+<path id="Rectangle 158" opacity="0.15" d="M0 32C0 14.3269 14.3269 0 32 0L168 0C185.673 0 200 14.3269 200 32C200 49.6731 185.673 64 168 64L32 64C14.3269 64 0 49.6731 0 32Z" fill="#FCFCFC"/>
+</mask>
+<g mask="url(#mask0_12_538)">
+<circle id="Ellipse 42" cx="145" cy="32" r="27" fill="#E43071"/>
+</g>
+</g>
+</svg>

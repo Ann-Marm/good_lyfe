@@ -1,0 +1,244 @@
+.hero__image {
+    /*
+    max-width: 1440px;
+    max-height: 697px;
+    */
+  /*  position: relative;*/
+    /*z-index: 1;*/
+}
+
+
+/***********************/
+
+.hero__container {
+    width: 1440px;
+}
+
+.hero__helper {
+    position: relative;
+}
+
+/*
+.hero__arrow {
+    position: absolute;
+    top: calc((691px / 2) - 35px);
+    display: block;
+    width: 70px;
+    height: 70px;
+
+    background-image: url('../images/arrow_left_2.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 5;
+    color: #E43071;
+
+}
+
+.hero__arrow_prev {
+    left: 0;
+}
+
+.hero__arrow_next {
+    right: 0;
+    transform: rotate(180deg);
+}
+*/
+
+.hero__item {
+    width: 1440px;
+    height: 691px;
+}
+
+.product__image-wrapper {
+    width: 1440px;
+    height: 691px;
+}
+
+.product__image-wrapper_1 {
+    position: relative;
+    background-image: url(/images/cathy_1440.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -70px;
+  /*  width: 1440px;
+    height: 691px;*/
+}
+
+.product__image-wrapper_1:after,
+.product__image-wrapper_2:after,
+.product__image-wrapper_3:after,
+.product__image-wrapper_4:after,
+.product__image-wrapper_5:after {
+    content: '';
+    position: absolute;
+    background-color: rgba(45, 40, 36, 0.20);
+    width: 1440px;
+    height: 691px;
+    top:0;
+    right: 0;
+}
+
+.product__image-wrapper_2 {
+    background-image: url(/images/jonathan_1440.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}
+
+.product__image-wrapper_3 {
+    background-image: url(/images/woman_pumping_abs_1440.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -910px;
+}
+
+.product__image-wrapper_4 {
+    background-image: url(/images/gym_1440.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+}
+
+.product__image-wrapper_5 {
+    background-image: url(/images/barbell_1440.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -220px;
+}
+
+.product__image {
+
+
+}
+
+.swiper-pagination {
+    --swiper-pagination-bullet-width: 12px;
+    --swiper-pagination-bullet-height: 12px;
+    --swiper-pagination-color: #E43071;
+    --swiper-pagination-bullet-inactive-color: #fff;
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 4px;
+    --swiper-pagination-bottom: 40px;
+}
+
+.hero__title {
+    position: absolute;
+    display: block;
+    z-index: 5;
+    /*top: calc((691px / 2) - 35px);*/
+    top: 241px;
+    left: calc((1440px / 2) - 389px);
+
+    width: 778px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 110%; /* 77px */
+    color: #FFF;
+    text-align: center; 
+}
+
+.hero__span {
+    color: #FFC1D8;
+}
+
+.hero__button {
+    position: absolute;
+    padding-top: 14px;
+
+    top: 421px;
+    left: calc((1440px / 2) - 118.5px);
+    z-index: 5;
+}
+
+.hero__bottom-wave {
+    position: absolute;
+    background-image: url(/images/hero_bottom_wave.svg);
+    background-repeat: no-repeat;
+    bottom: 3px;
+    width: 1440px;
+    height: 34px;
+    z-index: 6;
+}
+
+@media (max-width: 320px) {
+.hero__container {
+    width: 320px;
+}
+    
+.hero__item {
+    width: 320px;
+    height: 424px;
+}
+
+.product__image-wrapper {
+    width: 320px;
+    height: 424px;
+}
+
+.product__image-wrapper_1 {
+    position: relative;
+    background-position: -351px -55px;
+    background-size: 280%;
+}
+
+.product__image-wrapper_1:after,
+.product__image-wrapper_2:after,
+.product__image-wrapper_3:after,
+.product__image-wrapper_4:after,
+.product__image-wrapper_5:after {
+    width: 320px;
+    height: 424px;
+}
+
+.product__image-wrapper_2 {
+    position: relative;
+    background-position: -270px 0px;
+    background-size:  auto 424px;
+}
+
+.product__image-wrapper_3 {
+    position: relative;
+    background-position: -50px -185px;
+    background-size:  130%;
+}
+
+.product__image-wrapper_4 {
+    position: relative;
+    background-position: -230px 0px;
+    background-size:  200%;
+}
+
+.product__image-wrapper_5 {
+    position: relative;
+    background-position: -290px -100px;
+    background-size:  250%;
+}
+
+.swiper-pagination {
+    --swiper-pagination-bottom: 40px;
+}
+
+.hero__bottom-wave {
+    background-image: url(/images/hero_bottom_wave_mobile.svg);
+    bottom: 10px;
+    width: 320px;
+    height: 25px;
+    z-index: 6;
+}
+
+.hero__title {
+    top: 113px;
+    left: calc((320px / 2) - 157.5px);
+    width: 315px;
+    font-size: 32px;
+    line-height: 112.5%; /* 36px */
+}
+
+
+.hero__button {
+    width: 208px;
+    padding-top: 9px;
+    top: 202px;
+    left: calc((320px / 2) - 104px);
+    z-index: 5;
+}
+
+
+
+}
