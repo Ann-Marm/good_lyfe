@@ -148,7 +148,7 @@
 
 .hero__bottom-wave {
     position: absolute;
-    background-image: url(/images/hero_bottom_wave.svg);
+    background-image: url('../images/hero_bottom_wave.svg');
     background-repeat: no-repeat;
     bottom: 3px;
     width: 1440px;
@@ -172,9 +172,10 @@
 }
 
 .product__image-wrapper_1 {
-    position: relative;
-    background-position: -351px -55px;
-    background-size: 280%;
+    background-image: url('../images/cathy_320.jpg');
+    background-position: 0px 0px;
+  /*  background-position: -351px -55px;
+    background-size: 280%; */
 }
 
 .product__image-wrapper_1:after,
@@ -187,27 +188,31 @@
 }
 
 .product__image-wrapper_2 {
-    position: relative;
-    background-position: -270px 0px;
-    background-size:  auto 424px;
+    background-image: url('../images/jonathan_h424.jpg');
+    background-position: -230px 0px;
+   /* background-position: -270px 0px;
+    background-size:  auto 424px;*/
 }
 
 .product__image-wrapper_3 {
-    position: relative;
-    background-position: -50px -185px;
-    background-size:  130%;
+    background-image: url('../images/woman_pumping_abs_320.jpg');
+    background-position: 0px -20px;
+   /* background-position: -50px -185px;
+    background-size:  130%;*/
 }
 
 .product__image-wrapper_4 {
-    position: relative;
-    background-position: -230px 0px;
-    background-size:  200%;
+    background-image: url('../images/gym_h424.jpg');
+    background-position: -250px 0px;
+   /* background-position: -230px 0px;
+    background-size:  200%;*/
 }
 
 .product__image-wrapper_5 {
-    position: relative;
-    background-position: -290px -100px;
-    background-size:  250%;
+    background-image: url('../images/barbell_h424.jpg');
+    background-position: -160px 0px;
+   /* background-position: -290px -100px;
+    background-size:  250%;*/
 }
 
 .swiper-pagination {
@@ -215,7 +220,7 @@
 }
 
 .hero__bottom-wave {
-    background-image: url(/images/hero_bottom_wave_mobile.svg);
+    background-image: url('../images/hero_bottom_wave_mobile.svg');
     bottom: 10px;
     width: 320px;
     height: 25px;
