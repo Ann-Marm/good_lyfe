@@ -1,0 +1,148 @@
+.app {
+    background-color: #E43071;
+    position: relative;
+    height: 491px;
+}
+
+.app__info {
+    padding-top: 112px;
+    padding-left: 238px;
+    padding-bottom: 76px;
+}
+
+.app__title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.app__text {
+    width: 489px;
+    color: #FFF;
+    line-height: 232%;
+    margin-bottom: 13px;
+}
+
+.app__subtext {
+    color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 9px;
+    line-height: normal;
+}
+
+.app__list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.app__link {
+    display: block;
+    width: 135px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+
+.app__link-googleplay {
+    background-image: url('../images/google_play.svg');
+}
+
+.app__link-appstore {
+    background-image: url('../images/app_store.svg');
+}
+
+.app_mockup_1 {
+    position: absolute;
+    left: 797px;
+    top: -27px;
+    width: 232px;
+    height: 464px;
+    background: url('../images/iphone_1.svg') no-repeat center,
+                url('../images/iphone_1_screen.png') no-repeat center;  
+    background-size: 232px 464px, 202px 439px; 
+    background-position: center, center;
+    }
+
+.app_mockup_2 {
+    position: absolute;
+    left: 1061px;
+    top: 107px;
+    width: 232px;
+    height: 384px;
+    background: url('../images/iphone_2.svg') no-repeat center,
+                url('../images/iphone_2_screen.png') no-repeat center;
+    background-size: 232px 384px, 203px 372px;    
+    background-position: center, top 12px right 50%;
+    }
+
+
+@media (max-width: 320px) {
+    .app {
+        position: relative;
+        height: 972px;
+    }
+    
+    .app__info {
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-bottom: 98px;
+    }
+    
+    .app__title {
+        line-height: 120%;
+        margin-bottom: 8px;
+    }
+
+    .app__text {
+        width: 269px;
+        line-height: 206%;
+        margin-bottom: 28px;
+    }
+    
+    .app__subtext {
+        line-height: 120%;
+        margin-bottom: 15px;
+    }
+    
+    .app__link {
+        width: 137px;
+        height: 41px;
+        margin-right: 12px;
+    }
+    
+    .app__link-googleplay {
+        background-image: url('../images/google_play.svg');
+    }
+    
+    .app__link-appstore {
+        background-image: url('../images/app_store.svg');
+    }
+    
+    .app_mockup_1 {
+        position: absolute;
+        left: 21px;
+        top: 531px;
+        width: 166px;
+        height: 333px;
+        background: url('../images/iphone_1.svg') no-repeat center,
+                    url('../images/iphone_1_screen.png') no-repeat center;  
+        background-size: 166px 333px, 145px 314px; 
+        background-position: center, center;
+        }
+    
+    .app_mockup_2 {
+        position: absolute;
+        left: 210px;
+        top: 658px;
+        width: 166px;
+        height: 333px;
+        background: url('../images/iphone_1.svg') no-repeat center,
+                    url('../images/iphone_2_screen.png') no-repeat center;
+        background-size:166px 333px, 145px 314px;    
+        background-position: center, top 12px right 50%;
+        overflow: hidden;
+        }
+}

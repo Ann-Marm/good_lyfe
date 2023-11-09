@@ -113,4 +113,74 @@ new SwiperSliding('.sliding__block', {
 
 
 
+/* reviews */
+/*
+import SwiperReviews from '../lib/swiper-bundle.esm.browser.min.js';
 
+
+new SwiperReviews('.reviews__block', {
+    slidesPerView: 1,
+    spaceBetween: 5,
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
+
+    },
+    pagination: {
+      el: '.swiper-pagination-reviews',
+    },
+
+    
+    preventClicks: true,
+    a11y: false,
+});
+
+*/
+
+
+let reviewsBlock = document.querySelector('.reviews__block');
+let reviewsList = document.querySelector('.reviews__list');
+let review = document.querySelector('.review');
+let swiperPaginationReviews = document.querySelector('.swiper-pagination-reviews');
+
+import SwiperReviews from '../lib/swiper-bundle.esm.browser.min.js';
+
+let init = false;
+let swiper_2;
+function swiperCard() {
+  if (window.innerWidth <= 320) {
+
+     
+
+    if (!init) {
+      init = true; 
+
+     reviewsBlock.classList.add('swiper');
+      reviewsList.classList.add('swiper-wrapper');
+      review.classList.add('swiper-slide');
+      swiperPaginationReviews.classList.add('swiper-pagination-reviews-mob');
+
+      swiper_2 = new SwiperReviews('.reviews__block', {
+
+      slidesPerView: "auto",
+      /*  slidesPerView: 1,*/
+   /* spaceBetween: 5,*/
+        loop: true,
+       /* spaceBetween: 32,*/
+        pagination: {
+          el: ".swiper-pagination-reviews-mob",
+        },
+
+        preventClicks: true,
+        a11y: false,
+      });
+    }
+  } else if (init) {
+    swiper_2.destroy();
+    init = false;
+  }
+}
+swiperCard();
+window.addEventListener("resize", swiperCard);
