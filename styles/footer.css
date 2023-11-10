@@ -329,10 +329,6 @@
         margin-bottom: 16px;
     }
 
-    .footer__block-bottom_item:nth-child(1) {
-
-    }
-
     .footer__block-bottom_item:nth-child(2)::after {
         content: none;
     }
