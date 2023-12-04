@@ -1,0 +1,6 @@
+https://dzen.ru/a/Y9eYNsOtXUkTQgxG
+
+<?php include('headernorightleft.php');?>
+
+
+ўелкаем правой кнопкой мыши в области редактора кода и в меню выбираем как на рисунке ниже: php server: serve project
