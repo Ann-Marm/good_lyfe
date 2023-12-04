@@ -1,0 +1,113 @@
+.header {
+    background-color: #E43071;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  /*  gap: 20px 0px;*/
+}
+
+.header_part_left {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo {
+    width: 187px;
+    height: 44px;
+    margin: 31px 172px 26px 36px;
+}
+
+.header__navigation {
+    
+}
+
+.navigation__list {
+    display: flex;
+    color: #FFF;
+   /* margin-right: 76px;*/
+}
+
+.navigation__item {
+    margin-right: 76px;
+    white-space: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0px;
+}
+
+.header_part_right {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search__btn {
+    position: relative;
+    padding-right: 26px;
+    color: #FFF;
+    margin-right: 25px;
+}
+
+.search__btn:after {
+    content: '';
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 19px;
+    background: url('../images/search_icon.svg') no-repeat center;
+}
+
+.login__btn {
+    width: 166px;
+    height: 50px;
+    border-radius: 200px;
+    background-color: #FFF;
+    color: #E43071;
+   /* line-height: 109.5%; */
+    /* margin: 25px 41px 46px 63px;*/
+  /*  margin-left: 25px;*/
+    margin-right: 41px;
+}
+
+.header__navigation-burger {
+    position: relative;
+    display: none;
+    width: 24px;
+    height: 2px;
+    background-image: url("../images/menu_btn.svg");
+    background-repeat: no-repeat;
+}
+
+.header__navigation-burger:before,
+.header__navigation-burger:after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-image: url("../images/menu_btn.svg");
+    background-repeat: no-repeat;
+}
+
+.header__navigation-burger:before {
+    top: -7px;
+}
+
+.header__navigation-burger:after {
+    top: 7px;
+}
+
+@media (max-width: 320px) {
+}

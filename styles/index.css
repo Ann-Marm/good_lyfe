@@ -19,10 +19,17 @@
 @import 'normalize.css';
 @import 'fonts.css';
 @import 'default.css';
+/*
 @import 'header.css';
-/*@import 'header-space-between.css';*/
+*/
+
+
+@import 'headernorightleft.css';
+
 /*@import 'header-start-2-menu-noblock.css';*/
 /*@import 'header-profile-in-menu-mob.css';*/
+
+/*
 @import 'hero.css';
 @import 'about.css';
 @import 'sliding.css';
@@ -32,6 +39,7 @@
 @import 'app.css';
 @import 'social.css';
 @import 'footer.css';
+*/
 
 
 

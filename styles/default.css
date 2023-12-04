@@ -20,7 +20,9 @@ body {
 html {
     box-sizing: border-box;
   /*  scroll-behavior: smooth; */
-  overflow-x: hidden;
+/*  overflow-x: hidden;
+  overflow-y: hidden;*/
+ /* overflow-x: hidden;*/
 }
 
 *, *::after, *::before {
@@ -35,9 +37,10 @@ body {
     font-weight: 400;
     margin: 0 auto;
 
-    overflow-x: hidden;
-    overflow-y: scroll;
-    overflow-x: hidden;
+  /*  overflow-x: hidden;*/
+   /* overflow-y: scroll;*/
+   overflow-x: hidden;
+ /*  overflow-y: auto;*/
 }
 
 img, svg {
