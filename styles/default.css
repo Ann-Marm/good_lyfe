@@ -211,6 +211,31 @@ h1, h2, h3, p {
     border-color: #D37899;
 }
 
+
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 320px;
+    }
+
+.button-slider {
+    width: 208px;
+    height: 56px;
+    font-weight: 400;
+}
+
+.button-section-text {
+    width: 287px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+}
+
+
+
+
 @media (max-width: 320px) {
     .container {
         width: 320px;
@@ -229,5 +254,8 @@ h1, h2, h3, p {
 }
 
 }
+
+
+
 
 
