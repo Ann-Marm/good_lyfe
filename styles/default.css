@@ -213,30 +213,13 @@ h1, h2, h3, p {
 
 
 
-
+/* (max-width: 320px)*/
 @media (max-width: 480px) {
-    .container {
+    body {
         width: 320px;
+        margin: 0 auto;
     }
 
-.button-slider {
-    width: 208px;
-    height: 56px;
-    font-weight: 400;
-}
-
-.button-section-text {
-    width: 287px;
-    height: 60px;
-    padding-top: 10px;
-}
-
-}
-
-
-
-
-@media (max-width: 320px) {
     .container {
         width: 320px;
     }
