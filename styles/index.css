@@ -19,11 +19,8 @@
 @import 'normalize.css';
 @import 'fonts.css';
 @import 'default.css';
-/*
-@import 'header.css';
-*/
 
-
+/* @import 'header.css'; */
 @import 'headernorightleft.css';
 
 /*@import 'header-start-2-menu-noblock.css';*/
