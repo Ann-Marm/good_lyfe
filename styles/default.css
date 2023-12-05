@@ -217,7 +217,6 @@ h1, h2, h3, p {
 @media (max-width: 480px) {
     body {
         width: 320px;
-        margin: 0 auto;
     }
 
     .container {
