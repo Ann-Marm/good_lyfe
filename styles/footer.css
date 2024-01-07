@@ -283,13 +283,14 @@
 @media (max-width: 320px) {
     .footer {
         padding-top: 42px;
-        padding-left: 32px;
+        padding-left: 0px;
         padding-bottom: 20px;
     }
     
     .footer__block {
         flex-direction: column;
         margin-bottom: 23px;
+        padding-left: 32px;
     }
     
     .footer__block-info {
@@ -337,5 +338,11 @@
         margin-left: 50px;
     }
 
+    .footer__block-bottom {
+      /*  display: block;
+        margin: 0 auto;
+        max-width: 250px;
+        */
 
+    }
 }

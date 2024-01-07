@@ -1,5 +1,6 @@
 .header {
     background-color: #E43071;
+    position: relative;
 }
 
 .header__container {
@@ -65,6 +66,68 @@
     background: url('../images/search_icon.svg') no-repeat center;
 }
 
+.search__form-button {
+   /* color: white; */
+    border-radius: 200px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+
+.search__form {
+    width: 400px;
+    margin: 30px auto;
+    margin-left: 1030px;
+}
+
+.search__form input {
+    border-radius: 200px;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    background-color: #fff;
+    text-indent: 15px;
+    outline: none;
+}
+/*
+.form {
+    display: none;
+    border: 2px solid #E43071;
+    position: absolute;
+    top: 66px;
+    left: 0;
+    right: 0;
+    padding: 15px 15px;
+    color: #fff;
+    z-index: 99;
+}
+*/
+.search__wrapper, 
+.login__wrapper {
+   /* border: 2px solid greenyellow;*/
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 102px;
+   /* color: greenyellow;*/
+    padding: 20px;
+   background-color: #f2f1f0;
+   /* background-color: #e6e6e6;*/
+  /*  background: -webkit-linear-gradient(bottom,#0250c5,#d43f8d);*/
+    z-index: 999;
+
+}
+.modal-window.nav-desktop {
+    display: block;
+}
+
+.modal-window  {
+    display: none;
+}
+
+.modal-window--active {
+    display: block;
+}
+
 .login__btn {
     width: 166px;
     height: 50px;
@@ -104,7 +167,7 @@
 
 
 /* (max-width: 320px) */
-@media (max-width: 480px) {
+@media (max-width: 320px) {
     .header {
         width: 320px;
         height: 64px;
@@ -136,6 +199,23 @@
         display: none;
     }
     
+    .search__wrapper, 
+    .login__wrapper {
+    top: 64px;
+}
+
+    .search__form {
+        width: 100%;
+        margin: 0 auto;
+        /*margin-left: 0px;*/
+    }
+
+    .search__form input {
+       width: 100%;
+       margin: 0 auto;
+       margin-bottom: 15px;
+    }
+
     .login__btn {
         position: relative;
         width: 20px;
@@ -170,19 +250,22 @@
         right: 0;
     }
 
-
     .header__navigation {
-        display: none;
+     /*   display: none;*/
         position: absolute;
         top: 66px;
         left: 0;
         right: 0;
         padding: 15px 15px;
         color: #fff;
-        z-index: 99;
+        z-index: 999;
         background-color: #E43071;
     }
-    
+/*
+    .opened {
+        display: block;
+    }
+    */
     .navigation__list  {
         flex-direction: column;
     }
@@ -190,10 +273,8 @@
     .navigation__item {
         display: block;
         margin-right: 0px;
-
     } 
-
-        
+   
     .navigation__link {
         display: block;
         margin-top: 15px;
@@ -202,4 +283,9 @@
         padding-bottom: 0px;    
     }
     
+    .header_margin {
+    margin-bottom: 300px;
+    transition: margin-bottom 0.5s;
+    }
+
     }

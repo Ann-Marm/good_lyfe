@@ -1,7 +1,7 @@
-.about__container {
+/*.about__container {
     width: 1440px;
 }
-
+*/
 .about__wrapper {
     display: flex;
     flex-wrap: nowrap;
@@ -60,10 +60,10 @@
 }
 
 @media (max-width: 320px) {
-    .about__container {
+ /*   .about__container {
         width: 320px;
     }
-
+*/
     .about__wrapper {
         flex-direction: column;
         align-items: start;

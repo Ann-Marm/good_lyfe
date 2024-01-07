@@ -59,9 +59,34 @@ new Swiper('.hero__block', {
 
 
 /* menu mobile */
+/*
 $('.header__navigation-burger').click(function() {
     $('.header__navigation').slideToggle();
-})
+   $(".header").toggleClass('header_margin');
+});
+*/
+let navDesktop = document.querySelector('.nav-desktop');
+
+let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+if ( width < 321 ) {
+	navDesktop.classList.remove('nav-desktop');
+}
+
+
+let toolbar = document.querySelector('.toolbar');
+
+toolbar.onclick = function(event) {
+  let target = event.target.closest('.btn-header-window');
+
+ // if (target.tagName != 'A') return;
+  // added
+  document.querySelectorAll('.modal-window').forEach( modal => {
+  	modal.id !== target.dataset.target && modal.classList.remove('modal-window--active')
+  })
+  // -----
+  let modalActive = document.querySelector('#' + target.dataset.target);
+  modalActive.classList.toggle('modal-window--active');
+};
 
 
 
@@ -184,3 +209,26 @@ function swiperCard() {
 }
 swiperCard();
 window.addEventListener("resize", swiperCard);
+
+
+
+
+/* LOGIN FORM */
+//this function to applay your animate style
+
+function animate_Me(target, moveMe){
+  $(target).focus(function(){
+    $(moveMe).animate({"marginLeft":"256px"});
+  });
+  $(target).focusout(function(){
+    $(moveMe).animate({"marginLeft":"34px"});
+  });
+
+}
+
+animate_Me("input[type='text']", ".fa-user");
+animate_Me("input[placeholder='Your Last Name']", ".fa-user-plus");
+animate_Me("input[type='email']", ".fa-envelope");
+animate_Me("input[type='password']", ".fa-lock");
+animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
+

@@ -4,10 +4,11 @@
 .sliding__arrow_next {}
 
 */
+/*
 .sliding__container {
     width: 1440px;
 }
-
+*/
 .sliding__helper {
     position: relative;
 }
@@ -270,7 +271,7 @@
 }
 
 .sliding__image_1 {
-    object-position: top -70px right 0px;  
+    object-position: top -910px right 0px;
 }
 
 .sliding__image_2 {
@@ -278,7 +279,7 @@
 }
 
 .sliding__image_3 {
-    object-position: top -910px right 0px;
+    object-position: top -70px right 0px;  
 }
 
 .sliding__image_4 {
@@ -305,16 +306,16 @@
 
 .swiper-pagination-sliding {
     position: absolute;
-    width: 100px;
+   /* width: 100px;*/
     display: block;
-    margin-left: calc((1440px/2) - 50px);
+    padding-left: calc((1440px/2) - 50px);
     --swiper-pagination-bullet-width: 12px;
     --swiper-pagination-bullet-height: 12px;
     --swiper-pagination-color: #E43071;
     --swiper-pagination-bullet-inactive-color: #fff;
     --swiper-pagination-bullet-inactive-opacity: 1;
     --swiper-pagination-bullet-horizontal-gap: 4px;
-    --swiper-pagination-bottom: 36px;
+    --swiper-pagination-bottom: 46px;
     z-index: 6;
 }
 
@@ -365,9 +366,11 @@
 
 
 @media (max-width: 320px) {
+    /*
     .sliding__container {
         width: 320px;
     }
+*/
 
     .sliding__item {
         width: 320px;
@@ -386,11 +389,8 @@
     }
     
     .sliding__image_1 {
-        object-position: top 45px right -85px; 
-        transform: scale(1.5);
-        width: 320px;
-        height: 424px;
-
+        object-position: top -90px right -20px;
+        transform: scale(1.2); 
     }
     /*
     .sliding__image-wrapper_1 {
@@ -411,9 +411,10 @@
     }
     */
     .sliding__image_3 {
-        object-position: top -90px right -20px;
-        transform: scale(1.2); 
-
+        object-position: top 45px right -85px; 
+        transform: scale(1.5);
+        width: 320px;
+        height: 424px;
     }
     /*
     .sliding__image-wrapper_4 {
@@ -446,8 +447,8 @@
     }
 
     .swiper-pagination-sliding {
-        margin-left: calc((320px/2) - 50px);
-        --swiper-pagination-bottom: 26px;
+        padding-left: calc((320px/2) - 50px);
+        --swiper-pagination-bottom: 36px;
     }
     
     .sliding__title {

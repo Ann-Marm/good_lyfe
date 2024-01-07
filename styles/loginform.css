@@ -1,0 +1,198 @@
+
+/*Start form style*/
+
+.login__wrapper_form form {
+ /* background-image: url('http://ryokb95.upload-website.com/login-signupform/imgs/1.jpg');*/
+  height: auto;
+  width: 320px;
+  margin: 64px auto;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 5%);
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*box-shadow: 0px 0px 10px rgb(228 48 113 / 16%);*/
+}
+
+/*.login__wrapper_form button{box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.58);}*/
+
+/*End form style*/
+
+
+
+/*****************************************/
+
+/*Start header*/
+.login__wrapper_form form h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.42);
+  padding-top: 34px;
+}
+
+.login__wrapper_form form p {
+  color: #828999;
+  font-size: 13px;
+  text-align: center;
+  margin-top: -19px;
+}
+
+ /*The link of the site in the p tag ***/
+ .login__wrapper_form form p>a{color:#828999;text-decoration: none;transition: 0.3s; }
+ .login__wrapper_form form p>a:hover{color: #E43071;}
+ .login__wrapper_form form p>a:active{color: #E43071; }
+/*End login header*/
+
+
+/* Start the input-info style*/
+.login__wrapper_form .input-info { margin-top: 30px;margin-bottom: 15px;}
+
+/*the containe div style*/
+.login__wrapper_form input[type="text"],input[type="email"],input[type="password"]  {
+    display: block;
+   /* border: 1px solid #828999;*/
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90%;
+    background-color: #f2f1f0;
+    color: #828999;
+    margin: 5px 5px 10px 17px;
+    outline: none;
+    transition: 0.3s;
+    text-indent: 27px;
+    overflow: hidden;
+}
+
+.login__wrapper_form .fa-refresh, .login__wrapper_form .fa-lock, 
+.login__wrapper_form .fa-envelope, .login__wrapper_form .fa-user-plus, 
+.login__wrapper_form .fa-user {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 34px;
+    color: #828999;
+    display: block;
+}
+
+/*.login__wrapper_form .input-info input:hover{border: 1px solid #E43071;}*/
+.login__wrapper_form .input-info input[type="checkbox"] {margin-left: 17px;cursor: pointer;margin-top: 7px;}
+.login__wrapper_form .input-info span {color: #83899a;font-size: 12px;}
+.login__wrapper_form .input-info span>a{color:#1da1f2; }
+.login__wrapper_form .input-info span>a:hover{color:#fff; }
+
+/*End the input-info style*/ 
+
+/*start the tow button login and sign up*/
+/*the containe div style*/
+.login__wrapper_form .log-sign{text-align: center;}
+
+/*button login style*/
+.login__wrapper_form .signup,
+.login__wrapper_form .login{
+    padding: 10px;
+    margin-top: 16px;
+    background-color: #E43071;
+    color: #fff;
+    width: 103px;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #E43071;
+    outline: none;
+}
+
+/*button signup style*/
+.login__wrapper_form .signup {
+  /*background: #9e3434;
+  border: 1px solid #9e3434;*/
+  /*background-color: #828999;
+  color: #fff;
+  border-color: #828999;*/
+  background-color:#fff;
+  border: 1px solid #e6e6e6;
+  color: #828999;
+}
+
+.login__wrapper_form .log-sign .signup>a{color: #fff;text-decoration: none;}
+/*the signup link style*/
+
+.login__wrapper_form .log-sign button:hover {
+   background-color:#fff;
+   border:1px solid #828999;
+   color: #828999;
+}
+
+/*sugn up button at the signup.html page*/
+.login__wrapper_form .send {
+    padding: 10px;
+    margin-top: 16px;
+    background: #435688;
+    color: #fff;
+    width: 103px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #435688;
+    outline: none;
+    margin-left: 32%;
+}
+
+
+/*facebook social-media button style*/
+.login__wrapper_form .social-media {margin-bottom: 35px;}
+
+/*facebook button*/
+.login__wrapper_form .social-media .btn1 {
+  border: 0;
+  /*background-color: #3B5998;
+  color: #fff;*/
+  background-color: #fff;
+  color: #3B5998;
+  padding: 15px;
+  width: 90%;
+  margin-left: 16px;
+  margin-top: 14px;
+  border-radius: 200px;
+  border: 1px solid #e6e6e6;
+}
+
+/*twitter button*/
+.login__wrapper_form .social-media .btn2 {
+  border: 0;
+  padding: 15px;
+  margin-top: 11px;
+  width: 90%;
+  margin-left: 16px;
+  border-radius: 200px;
+ /* background-color: #1DA1F2;
+  color: #fff;*/
+  background-color: #fff;
+  color: #1DA1F2;
+  border: 1px solid #e6e6e6;
+}
+.login__wrapper_form .social-media button>a{text-decoration: none;}
+/************/
+
+.login__wrapper_form .forget-password {text-align: center;}
+.login__wrapper_form .forget-password a {color: #6c6c70;transition: 0.3s;text-decoration:underline;}
+.login__wrapper_form .forget-password a:hover{color: #E43071;}
+.login__wrapper_form .forget-password a:active{color: #E43071;}
+
+
+/*start form sign up*/
+
+
+
+@media (max-width: 320px) {
+  .login__wrapper_form form {
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  .login__wrapper_form form h1 {
+    padding-top: 0px;
+  }
+}
