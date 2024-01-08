@@ -306,7 +306,7 @@
 
 .swiper-pagination-sliding {
     position: absolute;
-   /* width: 100px;*/
+/* width: 100px;*/
     display: block;
     padding-left: calc((1440px/2) - 50px);
     --swiper-pagination-bullet-width: 12px;
